@@ -1,0 +1,193 @@
+<!--
+HTML
+作成日：1月7日
+作成者：高橋里佳
+タイトル：Original Site
+-->
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Original Site</title>
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://use.fontawesome.com/releases/v6.7.2/css/all.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&display=swap" rel="stylesheet">
+</head>    
+
+<header id="header" class="header-wrapper">
+    <div class="flex-menu">
+        <h1 class="logo">
+            <a href="#">
+                <img src="img/logo_1.png" alt="テキストテキスト">
+            </a>
+        </h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#about">燈庵について</a>
+                </li>
+                <li>
+                    <a href="#menu">お品書き</a>
+                </li>
+                <li>
+                    <a href="#information">お知らせ</a>
+                </li>
+                <li>
+                    <a href="#access">店舗案内</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<main>
+    <section id="main-visual">
+        <img src="img/mainvisual.png" alt="テキストテキスト">
+    </section>
+    <section id ="about" class="wrapper">
+        <h2 class="section-title">
+            <span class="section-title_ja">燈庵について</span>
+            <span class="section-title_en">about</span>
+        </h2>
+        <p class="phrase">「心を灯す、あたたかなひとときを」</p>
+        <div class="flex">
+            <div class="text">
+                <p>燈庵（あかりあん）は、地元の恵みを大切にした十割蕎麦のお店です。<br>
+                    また、料理を彩る器には、地元の陶芸家が心を込めて作った焼き物を使用しています。<br>
+                    お蕎麦の一杯から器の手触りに至るまで、地元の風土と温もりを感じられるひとときをお届けします。<br>
+                    四季折々の風景に包まれながら、地元の味わいと職人たちの想いが織りなす特別な時間を、ぜひ燈庵でお過ごしください。</p>
+            </div>
+            <div class="img">
+                <img src="img/about.png" alt="テキストテキスト">
+            </div>
+        </div>
+    </section>
+    <section id ="menu" class="wrapper">
+        <h2 class="section-title">
+            <span class="section-title_ja">お品書き</span>
+            <span class="section-title_en">menu</span>
+        </h2>
+        <div class="menu-flex">
+            <div class="left">
+                <p class="menu-title">季節のお蕎麦</p>
+                <div class="left-item">
+                    <dl class="content">
+                        <div>
+                        <dt>地元野菜のけんちんそば</dt>
+                        <dd>1,350円</dd>
+                        </div>
+                    </dl>
+                    <p>（地元の野菜を使用しております）</p>
+                </div>
+                <div class="img">
+                    <img src="img/menu.png" alt="テキスト">
+                </div>
+            </div>
+            <div class="right">
+                <div class="right-item">
+                    <p class="menu-title">通常のお品書き</p>
+                    <p class="sub-menu-title">温かいお蕎麦</p>
+                    <dl class="content">
+                        <div>
+                        <dt>かけそば</dt>
+                        <dd>900円</dd>
+                        </div>
+
+                        <div>
+                        <dt>ゆず香る鴨南そば</dt>
+                        <dd>1,200円</dd>
+                        </div>
+                    </dl> 
+                    <p class="sub-menu-title">冷たいお蕎麦</p>
+                    <dl class="content">
+                        <div>
+                        <dt>もりそば</dt>
+                        <dd>900円</dd>
+                        </div>
+
+                        <div>
+                        <dt>すだちおろしそば</dt>
+                        <dd>1,100円</dd>
+                        </div>
+                    </dl>
+                </div>
+                <p class="detail">and more・・・</p>
+                <a class=button href="pdf/akarian_menu.pdf" target="_blank" rel="noopener">メニューPDF</a>
+            </div>
+        </div>
+    </section>        
+    <section id ="information" class="wrapper">
+        <h2 class="section-title">
+            <span class="section-title_ja">お知らせ</span>
+            <span class="section-title_en">information</span>
+        </h2>
+        <div class="news-area">
+            <article>
+                <p><time datetime="2025-01-15"><b>2025年1月15日</b></time><br>
+                    <b>臨時休業のお知らせ</b><br>
+                    1月20日（日）は、店内設備点検のためお休みさせていただきます。
+                </p>
+            </article>
+            <article>
+                <p><time datetime="2025-01-05"><b>2025年1月5日</b></time><br>
+                    <b>冬限定の特別メニュー「生姜香る海老天そば」が登場</b><br>
+                    熱々のつゆに生姜を効かせた冬仕様の天ぷらそば。<br>
+                    プリプリの紅生姜海老天とともに、体の芯から温まる風味をお楽しみいただけます。<br>
+                    この冬も燈庵ならではの季節の味覚をお楽しみください。
+                </p>
+            </article>
+        </div>
+    </section>    
+    <section id ="access">
+        <div class="flex">
+            <div class="left-item">
+                <h2 class="section-title">
+                    <span class="section-title_ja">店舗案内</span>
+                    <span class="section-title_en">access</span>
+                </h2>
+                <div class="items">
+                    <p>
+                        <span><i class="fa-solid fa-train"></i></span>常磐線XXX駅から徒歩15分
+                    </p>
+                    <p>
+                        <span><i class="fa-solid fa-car"></i></span>お車でお越しの際はXXICから20分
+                    </p>
+                </div>
+            </div>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2061.476523464232!2d139.76485342723103!3d35.6803816187164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bfbd89f700b%3A0x277c49ba34ed38!2z5p2x5Lqs6aeF!5e0!3m2!1sja!2sjp!4v1736256276984!5m2!1sja!2sjp"
+                    width="100%"
+                    height="450"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </section>
+</main>
+<footer id="footer">
+    <dl class="content">
+        <dt>住所</dt>
+        <dd>〒105-XXXX　茨城県XXX市XXX 1-1-1</dd>
+        <dt>営業時間</dt>
+        <dd>11:30〜15:30（L.O. 15:00）<br>
+            17:30〜21:00（L.O. 20:00）<br>
+            <p>※売れ切れ次第終了となります。</p>
+        </dd>
+        <dt>定休日</dt>
+        <dd>水曜日、木曜日</dd>
+        <dt>座席数</dt>
+        <dd>14席</dd>
+        <dt>電話番号</dt>
+        <dd>XX-XXX-XXX</dd>
+        <dt>駐車場</dt>
+        <dd>15台（お店の前にございます）</dd>
+    </dl>
+    <p class="copyright">&copy;akarian</p>
+</footer>
