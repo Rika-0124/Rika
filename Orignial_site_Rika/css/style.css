@@ -89,8 +89,9 @@ ul {
 }
 
 .wrapper {
-    margin: auto 0;
-    padding: 0 96px;
+    margin: 0 auto;
+    padding: 0 2%;
+    max-width: 1265px;
 }
 
 .section-title_ja {
@@ -112,12 +113,23 @@ ul {
 
 #about .flex {
     display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#about .text {
+    width: 70%;
+    display: inline-block;
 }
 
 #about .text p {
     font-size: 1.35rem;
-    letter-spacing: 0.25px;
+    letter-spacing: 0.05px;
     line-height: 1.85;
+}
+
+#about .flex .img {
+    width: 25%;
 }
 
 #about .flex img {
@@ -252,7 +264,7 @@ ul {
 }
 
 #information {
-    margin-bottom: 219px;
+    margin-bottom: 163px;
 }
 
 #information .news-area {
@@ -271,7 +283,6 @@ ul {
 
 #access {
     padding-left: 77px;
-    margin-bottom: 64px;
 }
 
 #access .flex {
@@ -280,6 +291,8 @@ ul {
 
 #access .flex .left-item {
     width: 50%;
+    margin-top: 59px;
+    padding-bottom: 238px;
 }
 
 #access .flex .items {
@@ -390,13 +403,18 @@ ul {
         font-size: 1.25rem;
     }
 
+    #about .text {
+        width: 100%;
+    }
+
     #about .text p {
         font-size: 1rem;
         margin-bottom: 20px;
     }
 
-    #about .img {
-        margin: 0 auto;
+    #about .flex .img {
+        text-align: center;
+        width: 100%;
     }
 
     #menu .menu-flex {
@@ -475,6 +493,7 @@ ul {
 
     #access .flex .left-item {
         width: 100%;
+        padding-bottom: 0;
     }
 
     #access .flex .items {
