@@ -281,10 +281,6 @@ ul {
     margin-bottom: 20px;
 }
 
-#access {
-    padding-left: 77px;
-}
-
 #access .flex {
     display: flex;
 }
@@ -355,23 +351,23 @@ ul {
     }
 
     #header .flex-menu nav ul {
+        justify-content: center;
         padding: 0;
-        justify-content: end;
     }
     
     #header .flex-menu nav li {
-        margin-right: 20px;
-        font-size: 0.65rem;
-        width: 22%;
-
+        font-size: 0.9rem;
+        width: 20%;
+        white-space: nowrap; 
+        padding-bottom: 10px;
     }
 
     #header .flex-menu nav li:first-child {
-        margin-left: 10px;
+        margin-left: 0;
     }
 
     #header .flex-menu nav li:last-child {
-        margin-right: 15px;
+        margin-right: 0;
     }
 
     .header-wrapper {
@@ -384,7 +380,7 @@ ul {
     }
 
     .wrapper {
-        padding: 0px 17px;
+        padding: 0 3%;
     }
 
     .section-title_ja {
@@ -483,10 +479,6 @@ ul {
         font-size: 0.75rem;
     }
 
-    #access {
-        padding-left: 17px;
-    }
-
     #access .flex {
         flex-direction: column;
     }
@@ -510,10 +502,6 @@ ul {
 
     #access .flex .map {
         width: 100%;
-    }
-
-    #access .flex .map iframe {
-        width: 95%;
     }
 
     #footer {
