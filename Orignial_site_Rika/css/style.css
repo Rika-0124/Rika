@@ -356,8 +356,8 @@ ul {
     }
     
     #header .flex-menu nav li {
-        font-size: 0.9rem;
-        width: 18%;
+        font-size: 1rem;
+        width: 20%;
         white-space: nowrap; 
         padding-bottom: 10px;
     }
